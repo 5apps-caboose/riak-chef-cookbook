@@ -27,14 +27,14 @@ version           "2.4.21"
 recipe            "riak", "Installs Riak from a package"
 recipe            "riak::source", "Installs Erlang and Riak from source"
 
-depends "apt", "~> 2.3.8"
-depends "build-essential", "~> 2.0.2"
+depends "apt"
+depends "build-essential"
 depends "erlang", "~> 1.5.0"
-depends "git", "~> 3.0"
+depends "git"
 depends "sysctl", "< 0.5.0"
 depends "ulimit", "~> 0.3.2"
-depends "yum", "~> 3.4"
-depends "yum-epel", "~> 0.3"
+depends "yum"
+depends "yum-epel"
 
 %w{ubuntu debian centos redhat fedora amazon}.each do |os|
   supports os
