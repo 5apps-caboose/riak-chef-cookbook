@@ -32,7 +32,7 @@ depends "build-essential"
 depends "erlang", "~> 1.5.0"
 depends "git"
 depends "sysctl", "< 0.5.0"
-depends "ulimit", "~> 0.3.2"
+depends "ulimit"
 depends "yum"
 depends "yum-epel"
 
